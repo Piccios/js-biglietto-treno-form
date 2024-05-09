@@ -32,7 +32,9 @@ console.log(ticketPrice, ticketPriceRounded)
 const calcola = document.querySelector('button');
 
 calcola.addEventListener('click', function(){
+    let length = document.getElementById('travelLength')
     let age = document.getElementById('customerAge')
-    console.log('CLICK!', age.value);
+    
+    console.log('CLICK!', age.value, length.value);
 })
 
