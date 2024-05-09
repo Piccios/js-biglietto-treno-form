@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,11 +9,41 @@
     <title>js-biglietto-treno-form</title>
 </head>
 <body>
-    <header>
-
+    <header class="bg-danger bg-gradient container-fluid text-center" style="height: 70px;">
+        <div class="row">
+            <div class="col pt-4">
+                <h1 class="fw-semibold text-light">Acquiata il tuo biglietto</h1>
+            </div>
+            
+        </div>
+        
     </header>
-    <main>
+    <main class="bg-success bg-gradient" style="height: 1200px;">
+        <div class="container d-flex justify-content-center">
+            <div class="card shadow-lg p-3 mb-5 mt-5 bg-body-tertiary rounded" style="width: 18rem;">
+                <img src="./style/treno-jazz.jpg" class="card-img-top" alt="Train">
+                <div class="card-body">
+                    <h5 class="card-title">Acquista il tuo biglietto</h5>
+                    <div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Quanti chilometri percorrerai?</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">Il prezzo del biglietto verra' calcolato in base ai km necessari.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="customerAge" class="form-label">Quanti anni hai?</label>
+                            <input type="text" class="form-control" id="customerAge">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="check">
+                            <label class="form-check-label" for="check">Acconsento al trattamento dei miei dati</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Calcola</button>
 
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <script src="./js/script.js"></script>
