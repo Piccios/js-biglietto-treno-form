@@ -23,8 +23,6 @@ console.log(ticketPrice, ticketPriceRounded)
 
 
 
-
-
 // creati due input dove l'utente inserira' i suoi dati, creo due variabili con i rispettivi valori
 
 
@@ -34,7 +32,7 @@ console.log(ticketPrice, ticketPriceRounded)
 const calcola = document.querySelector('button');
 
 calcola.addEventListener('click', function(){
-    let age = document.getElementById('CustomerAge')
+    let age = document.getElementById('customerAge')
     console.log('CLICK!', age.value);
 })
 
