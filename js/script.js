@@ -31,10 +31,9 @@ calcola.addEventListener('click', function(){
     
     console.log(ticketPrice, ticketPriceRounded)
 
-
-
     console.log('CLICK!', lengthEl, ageEl, ticketPrice + '€', ticketPriceRounded + '€');
 
-    document.getElementById('risultato').innerHTML = ( ticketPrice + '€', ticketPriceRounded + '€')
+    document.getElementById('risultato').innerHTML = ("prezzo totale: ") + (ticketPrice + '€ ') + ("Prezzo arrotondato: ") + ( ticketPriceRounded + '€ ')
+
 })
 
